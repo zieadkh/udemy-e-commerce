@@ -9,6 +9,27 @@ This project is a simple e-commerce web application built with Node.js and Expre
 - To learn rendering dynamic pages with EJS templates.
 - To practice handling form input, serving static assets, and routing in a real app-like scenario.
 
+## User Stories
+
+### Customer / Shopper
+- As a customer, I can **view a list of all available products** on the shop homepage so I can browse what's available.
+- As a customer, I can **click on a product** to see detailed information including price, description, and product ID.
+- As a customer, I can **add products to my cart** from the product listing or product detail page.
+- As a customer, I can **view my cart** to see all items I've added, including quantities and total price.
+- As a customer, I can **remove items from my cart** if I change my mind about a purchase.
+- As a customer, I can **proceed to checkout** to complete my purchase.
+- As a customer, I can **view my orders** to see a history of past purchases.
+
+## Admin Stories
+
+### Administrator
+- As an admin, I can **access the admin dashboard** to manage products.
+- As an admin, I can **view a list of all products** currently in the system.
+- As an admin, I can **add a new product** by filling out a form with product details (title, price, description, image URL).
+- As an admin, I can **edit an existing product** to update its information such as price, description, or availability.
+- As an admin, I can **delete a product** from the inventory to remove items that are no longer available.
+- As an admin, I can **see product details** including the product ID, price, and description when managing inventory.
+
 ## Project structure
 
 - `app.js` - Main application entry point. Configures Express, body parsing, static files, routes, view engine, and error handling.
