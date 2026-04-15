@@ -53,13 +53,20 @@ Utility helpers used across the app.
 
 ## Technologies used so far
 
+### Backend
 - `Node.js` - JavaScript runtime used to build the backend server.
 - `Express` - Web framework for handling routing, middleware, and request/response logic.
-- `EJS` - Templating engine for rendering dynamic HTML views on the server.
 - `body-parser` - Middleware to parse incoming form data from `POST` requests.
-- `express.static` - Built-in Express middleware to serve static CSS and client-side JavaScript.
-- `JSON` files - Simple local storage for products and cart data without a database.
 - `path` module - Native Node utility to build file paths safely across operating systems.
+
+### Frontend / View Layer
+- `EJS` - Templating engine for rendering dynamic HTML views on the server.
+- `express.static` - Built-in Express middleware to serve static CSS and client-side JavaScript.
+
+### Data Storage
+- `JSON` files - Simple local storage for products and cart data without a database.
+
+### Development Tools
 - `nodemon` - Development dependency for automatically restarting the server during development.
 
 ## Design notes
