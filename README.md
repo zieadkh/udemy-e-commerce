@@ -12,23 +12,12 @@ This project is a simple e-commerce web application built with Node.js and Expre
 ## User Stories
 
 ### Customer / Shopper
-- As a customer, I can **view a list of all available products** on the shop homepage so I can browse what's available.
-- As a customer, I can **click on a product** to see detailed information including price, description, and product ID.
-- As a customer, I can **add products to my cart** from the product listing or product detail page.
-- As a customer, I can **view my cart** to see all items I've added, including quantities and total price.
-- As a customer, I can **remove items from my cart** if I change my mind about a purchase.
-- As a customer, I can **proceed to checkout** to complete my purchase.
-- As a customer, I can **view my orders** to see a history of past purchases.
+Customers can browse the shop to discover available products and explore details about each item. From the product listing or detail page, they can add items to their cart. The cart provides a complete view of selected products with quantities and pricing information. Customers maintain full control over their purchases—they can remove items if needed, proceed to checkout when ready, and track their order history for future reference.
 
 ## Admin Stories
 
 ### Administrator
-- As an admin, I can **access the admin dashboard** to manage products.
-- As an admin, I can **view a list of all products** currently in the system.
-- As an admin, I can **add a new product** by filling out a form with product details (title, price, description, image URL).
-- As an admin, I can **edit an existing product** to update its information such as price, description, or availability.
-- As an admin, I can **delete a product** from the inventory to remove items that are no longer available.
-- As an admin, I can **see product details** including the product ID, price, and description when managing inventory.
+Administrators have full control over product inventory through a dedicated admin dashboard. They can view all products in the system, create new entries by submitting product details (title, price, description, image URL), update existing products to reflect price changes or new information, and remove items that are no longer available. The admin interface provides complete visibility into product data including IDs and pricing for efficient inventory management.
 
 ## Project structure
 
